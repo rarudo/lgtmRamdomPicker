@@ -1,7 +1,6 @@
 package io.github.toranoana.kotlinanimelist.controller
 
 import org.springframework.http.HttpEntity
-import org.apache.catalina.manager.StatusTransformer.setContentType
 import org.springframework.http.HttpHeaders
 import java.io.IOException
 import org.springframework.beans.factory.annotation.Autowired
@@ -9,7 +8,6 @@ import org.springframework.core.io.ResourceLoader
 import org.springframework.core.io.support.ResourcePatternUtils
 import org.springframework.http.MediaType
 import org.springframework.web.bind.annotation.*
-import java.io.File
 import java.util.*
 
 
